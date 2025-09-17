@@ -8,7 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f4e4ba;
+    background-color: #f19c1e;
 }
 
 .container{
@@ -30,4 +30,12 @@ input {
     border: none;
     outline: none;
     border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid lightgray;
+    height: 3rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+
 }
