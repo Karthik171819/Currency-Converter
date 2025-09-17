@@ -15,8 +15,8 @@ body{
     background-color: white;
     padding: 2rem;
     border-radius: 1rem;
-    min-height: 45vh;
-    width: 40vh;
+    min-height: 50vh;
+    width: 50vh;
 }
 
 form{
@@ -37,5 +37,26 @@ form input {
     height: 3rem;
     font-size: 1rem;
     padding: 0.5rem;
-
 }
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-container img {
+    max-width: 1.75rem;
+    /* display: flex; */
+}
+
+.select-container {
+    display: flex;
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+}
+
